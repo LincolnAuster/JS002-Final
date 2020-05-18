@@ -39,3 +39,16 @@ The charges on the outer (blue in figure 1) particles are measured to be 0.03602
 > Figure 2: Carbon molecule with only valence electrons
 
 This drastic increase implies that the inner electrons were essential in reducing the magnetic force felt by the valence electrons, and that the shielding arises entirely from magnetic attraction.
+
+## Notes for Future Research
+How does the percentage change in magnetic pull change if the falloff is linear as opposed to inverse square?
+
+Rewrite the `inv_square` function to simply return d*weight, measure results.
+
+Could this algorithm show how covalent bonds are formed?
+
+Put 2 simulated atoms in close proximity and see if attractions between the outer shells are observed.
+
+Could this algorithm show electronegativity in an atom?
+
+Simulating atoms and measuring the attraction felt be the outer shell would show the notion of electronegativity. If these numbers roughly lined up with the measured results, it would imply a relationship. 
