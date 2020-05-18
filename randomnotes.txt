@@ -1,0 +1,23 @@
+I guess I want to simulate the pull of water molecules on each other
+
+Oxygen has a partial negative charge, hydrogen has a partial positive charge.
+
+In theory this should be simple, every partial charge will attract each other.
+
+But then I should first be able to simulate the charge of single atoms and how the repel each other
+
+Let's pretend that atoms are just a bunch of electrons. It only cares about valence electrons
+
+Right now, the program needs no notion of molecules as it's only simulating one.
+
+The program takes electrons and distributes theme evenly across a sphere
+Actually, I bet if I wrote a blender add on to simulate electron's push away from each other, that would be sssssick.
+
+So that means I need to include:
+
+Positive attractive charge in nucleus
+Negative charge from electrons
+
+That SHOULD derive shielding and all the other properties.
+
+So question, Can electron shielding be derived from a simple simulation of electron charges?
