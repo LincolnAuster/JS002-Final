@@ -21,6 +21,7 @@ This is summed for all particles.
 
 ## Miscellaneous Notes about Implementation
 
+- The code used is on [GitHub](https://github.com/LincolnAuster/JS002-Final)
 - Blender 2.83.15 (beta) was used
 - Python 3.8.2 was used
 - Tabs were used over spaces (obviously)
@@ -31,11 +32,11 @@ These last two points are by far the most important.
 ## Replicating Shielding with the Above Implementation
 Objects were laid out such that a circle of 2 negatively charged cubes surrounding a positively charged cube (weight=6). 4 negatively charged cubes surrounded these. This represents a carbon atom, and is shown in figure 1.
 
-![Figure 1: Carbon molecule laid out in blender](/fig1.png)
+![Figure 1: Carbon molecule laid out in blender](fig1.png)
 > Figure 1: Carbon molecule laid out in Blender
 
 The charges on the outer (blue in figure 1) particles are measured to be 0.036024 units by the simulation. When the inner shell is removed (figure 2), the charges on the outer particles are measured to be 0.105469 units by the simulation, a 151.87% increase.
-![Figure 2: Carbon molecule with only valence electrons](/fig2.png)
+![Figure 2: Carbon molecule with only valence electrons](fig2.png)
 > Figure 2: Carbon molecule with only valence electrons
 
 This drastic increase implies that the inner electrons were essential in reducing the magnetic force felt by the valence electrons, and that the shielding arises entirely from magnetic attraction.
